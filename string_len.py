@@ -1,6 +1,9 @@
-str = input("Enter a string: ")
+# Q34. Write a Python program to calculate the length of a given string.
 
-count = 0
-for s in str:
-      count = count+1
-print("Length of the input string is:", count)
+str = input("Enter a string: ")
+print("Length of the input string is:", len(str))
+
+# output:
+
+# Enter a string: Chaitanya
+# Length of the input string is: 9
